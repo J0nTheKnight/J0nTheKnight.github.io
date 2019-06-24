@@ -41,21 +41,21 @@ roles:
    employer: University of Central Florida
    description: Ongoing studies as a fulltime student at UCF
  - title: Weather Journeyman
-   start: 2017
-   end: 2015
+   start: 2015
+   end: 2017
    employer: United States Air Force, 618th Air Operations Center (TACC)
    description: Monitored and compiled climatological data from five operational weather squadrons in support of the 618th AOC missions. Made daily real-time weather threat assesments to ensure the safety of air crews and protection of assets to include aircraft and cargo worth 100-300 million.
  - title: Weather Apprentice
-   start: 2015
-   end: 2012
+   start: 2012
+   end: 2015
    employer: United States Air Force, 15th Operational Weather Squadron
    description: Worked to provide installation forecasts, aviation hazard decision aids, flight weather briefings, and weather advisories, watches and warnings; all for 24 states in northeastern CONUS.
    
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.) [In Progress]
-   date: 2021 
+ - level: Bachelor of Science (B.Sc.)
+   date: ETA 2020 
    subject: Computer Science
    school: University of Central Florida
 
