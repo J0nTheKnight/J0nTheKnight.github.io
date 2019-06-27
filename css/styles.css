@@ -52,6 +52,9 @@ p {
     display: block;
     text-align: center;
     padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
 
 }
 
