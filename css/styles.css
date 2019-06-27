@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     background: url('../img/gray_jean.png');
     ;
 }
@@ -16,16 +16,16 @@ body {
     margin-left: auto;
 }
 
-h1{
+h1 {
     text-align: center;
     margin: 10px;
 }
 
-p{
+p {
     margin: 10px;
 }
 
-.container{
+.container {
     width: 800px;
 }
 
@@ -35,29 +35,32 @@ p{
     text-align: center;
     background: #a1a1a1;
     color: black;
-    
+
 }
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(20, 20, 20);
+    background-color: black;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     color: grey;
 }
 
-.bar-item{
-    float: left;
+.bar-item {
+    float: right;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 20px;
-    text-decoration: none;
-    float: right;
+
 }
 
-.content{
+.bar-item a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
     background-color: lightgrey;
     border-color: #ABABAB;
     border-bottom-style: solid;
@@ -67,8 +70,10 @@ p{
     margin-bottom: 20px;
 }
 
+
 .footer {
     padding: 20px;
     text-align: center;
     background: lightgrey;
+    text-decoration: none;
 }
