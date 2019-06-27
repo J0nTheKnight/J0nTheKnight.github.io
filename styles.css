@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background: url('../img/gray_jean.png');
+    ;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.container{
+    width: 800px;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #a1a1a1;
+    color: black;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    color: grey;
+}
+
+.bar-item{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+        
+}
+
+.bar-item a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content{
+    background-color: lightgrey;
+    border-color: #ABABAB;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: lightgrey;
+    text-decoration: none;
+}
