@@ -13,7 +13,7 @@
 
 html {
     background-color: #FFCDA3;
-    background-image: url("/img/asfalt-dark.png");
+    background-image: url("../img/asfalt-dark.png");
     
     
     
@@ -55,7 +55,7 @@ p {
 .navbar {
     overflow: hidden;
     background-color: #B56726;
-    background-image: url("/img/45-degree-fabric-light.png");
+    background-image: url("../img/45-degree-fabric-light.png");
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -72,7 +72,7 @@ p {
     text-decoration: none;
     color: black;
     background-color: #B56726;
-    background-image: url("/img/45-degree-fabric-light.png");
+    background-image: url("../img/45-degree-fabric-light.png");
 
 }
 
@@ -83,7 +83,7 @@ p {
 
 .content {
     background-color: #B56726;
-    background-image: url("/img/45-degree-fabric-light.png");
+    background-image: url("../img/45-degree-fabric-light.png");
     border-color: #ABABAB;
     border-bottom-style: solid;
     border-bottom-width: 0px;
@@ -100,7 +100,7 @@ p {
     padding: 20px;
     text-align: center;
     background-color: #B56726;
-    background-image: url("/img/45-degree-fabric-light.png");
+    background-image: url("../img/45-degree-fabric-light.png");
     text-decoration: none;
     color: #000000;
     border-radius: 25px;
