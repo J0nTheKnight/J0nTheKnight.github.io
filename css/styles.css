@@ -1,10 +1,22 @@
+/* As hex codes */
+
+.color-primary-0 { color: #D38647 }	/* Main Primary color */
+.color-primary-1 { color: #FFCDA3 }
+.color-primary-2 { color: #F5AE73 }
+.color-primary-3 { color: #B56726 }
+.color-primary-4 { color: #8F480D }
+
+
 * {
     box-sizing: border-box;
 }
 
 html {
-    background: url('../img/gray_jean.png');
-    ;
+    background-color: #FFCDA3;
+    background-image: url("/img/asfalt-dark.png");
+    
+    
+    
 }
 
 /* Style the body */
@@ -23,6 +35,7 @@ h1 {
 
 p {
     margin: 10px;
+    
 }
 
 .container {
@@ -35,16 +48,20 @@ p {
     text-align: center;
     background: #a1a1a1;
     color: black;
+    
 
 }
 
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: #B56726;
+    background-image: url("/img/45-degree-fabric-light.png");
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     color: grey;
+    font-weight: bold;
+    border-radius: 25px;
 }
 
 .bar-item {
@@ -53,31 +70,44 @@ p {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #B56726;
+    background-image: url("/img/45-degree-fabric-light.png");
 
 }
 
 .bar-item:hover {
-    background-color: white;
+    background-color: #F5AE73;
     color: black;
 }
 
 .content {
-    background-color: lightgrey;
+    background-color: #B56726;
+    background-image: url("/img/45-degree-fabric-light.png");
     border-color: #ABABAB;
     border-bottom-style: solid;
     border-bottom-width: 0px;
     border-right-style: solid;
     border-right-width: 0px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 
 .footer {
     padding: 20px;
     text-align: center;
-    background: lightgrey;
+    background-color: #B56726;
+    background-image: url("/img/45-degree-fabric-light.png");
     text-decoration: none;
+    color: #000000;
+    border-radius: 25px;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: #000000;
 }
 
